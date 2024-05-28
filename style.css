@@ -10,7 +10,8 @@
 /* COLORS */
 :root {
   --first-color: #4070f4;
-  --second-color: #0e2431;
+  --second-color: #ffff;
+  --background: #0000;
 }
 
 /* Font and Typo */
@@ -62,6 +63,11 @@ body {
   font-size: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
+  background-color: #000;
+}
+
+.profile{
+  border-radius: 30% 30% 80% 80%;
 }
 
 h1,
@@ -129,7 +135,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #fff;
+  background-color: #000;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -238,6 +244,7 @@ img {
 }
 
 .home_img {
+  top: 100px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -387,7 +394,7 @@ img {
 /*============= Footer =================*/
 
 .footer {
-  background-color: var(--second-color);
+  background-color: var(--background);
   color: #fff;
   text-align: center;
   font-weight: var(--font-semi);
